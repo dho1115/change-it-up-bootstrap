@@ -7,11 +7,17 @@
 
 body {
     font-family: "Open Sans" sans-serif;
+    background: #C6FFDD;  /* fallback for old browsers */
 }
 
 .carousel {
   border: 3px solid maroon;
   margin: 1%;
+}
+
+.fullImage {
+  width: 100%;
+  height: auto;
 }
 
 .glow {
@@ -21,11 +27,27 @@ body {
     animation: glow 1s ease-in-out infinite alternate;
 }
 
+.imageCard {
+  border: 3px solid red;
+  min-height: 34vh;
+}
 
-img:hover {
-  width: 25%;
+.img-card {
+  border: 1.5px solid black;
+  border-radius: 15px; 
+}
+
+.img-container {
+  width: 30%;
+  min-height: 35vh;
   height: auto;
-  border: 3px solid maroon;
+}
+
+.card:hover {
+  width: 105%;
+  max-width: 105%;
+  height: auto;
+  border: 3.5px solid magenta;
 }
 
 .navbar {
